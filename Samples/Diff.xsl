@@ -4,7 +4,7 @@
 	<xsl:template match="/">
 		<html>
 			<head>
-				<title>DotNetNuke Resource File Comparison</title>
+				<title>DNN Resource File Comparison</title>
 				<style>
 					* {font-family: Arial;}
 					body{font-size:13px;}
@@ -28,7 +28,7 @@
 				</style>
 			</head>
 			<body>
-				<h1>DotNetNuke Resource File Comparison Report</h1>
+				<h1>DNN Resource File Comparison Report</h1>
 				<xsl:apply-templates select="resourceCompare/summary"></xsl:apply-templates>
 				<xsl:apply-templates select="resourceCompare/newFiles"></xsl:apply-templates>
 				<xsl:apply-templates select="resourceCompare/modifiedFiles"></xsl:apply-templates>
