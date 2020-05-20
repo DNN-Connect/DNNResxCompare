@@ -27,8 +27,8 @@ namespace DNNConnect.DNNResxCompare
 					if (args[0] == "/?" || args[0] == "-h" || args[0] == "/h")
 					{
 						message = "DNNRexCompare \"PreviousFolder\" \"NextFolder\" \"OutputFile\"\n\n" +
-							"-PreviousFolder: Directory containing the base version of DotNetNuke to compare\n" +
-							"-NextFolder: Directory containing the new version of DotNetNuke to compare to\n" +
+							"-PreviousFolder: Directory containing the base version of DNN to compare\n" +
+							"-NextFolder: Directory containing the new version of DNN to compare to\n" +
 							"-OutputFile: Full path and name of the xml file where the output report will be saved\n";
 					}
 					else
