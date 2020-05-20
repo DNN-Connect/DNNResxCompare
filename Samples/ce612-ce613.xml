@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='Diff.xsl'?>
+<resourceCompare>
+ <summary>
+  <totalDeleted files="1" />
+  <totalNew files="0" keys="0" words="0" />
+  <totalModified files="10" keys="15" words="802" />
+ </summary>
+ <deletedFiles>
+  <file>
+   <name>TimeZoneEditor.ascx.resx</name>
+   <path>\DesktopModules\Admin\Languages\App_LocalResources</path>
+   <deletedEntries>
+    <key>
+     <name>lbLocales.Text</name>
+     <oldValue>Available Locales</oldValue>
+    </key>
+    <key>
+     <name>Name.Header</name>
+     <oldValue>Name</oldValue>
+    </key>
+    <key>
+     <name>Offset.Header</name>
+     <oldValue>UTC&lt;br&gt;OffSet &lt;br&gt;mins</oldValue>
+    </key>
+    <key>
+     <name>RequiredField.ErrorMessage</name>
+     <oldValue>&lt;br&gt;Required Field</oldValue>
+    </key>
+    <key>
+     <name>lbLocales.Help</name>
+     <oldValue>Select the Language</oldValue>
+    </key>
+    <key>
+     <name>DefaultValue.Header</name>
+     <oldValue>Default Value</oldValue>
+    </key>
+    <key>
+     <name>DeleteItem.Text</name>
+     <oldValue>Are You Sure You Wish To Delete This Localized File?</oldValue>
+    </key>
+    <key>
+     <name>Delete.ErrorMessage</name>
+     <oldValue>System Locale (en-US) Cannot Be Deleted</oldValue>
+    </key>
+    <key>
+     <name>lblMissing.Text</name>
+     <oldValue>System Default resource file contains some entries not present in current localized file. This can lead to some values not being translated.</oldValue>
+    </key>
+    <key>
+     <name>cmdAddMissing.Text</name>
+     <oldValue>Add Missing Entries</oldValue>
+    </key>
+    <key>
+     <name>Save.ErrorMessage</name>
+     <oldValue>A File Operation Failed. Please Check Resource File Permissions So Files Can Be Edited.</oldValue>
+    </key>
+    <key>
+     <name>ControlTitle_timezone.Text</name>
+     <oldValue>TimeZone Editor</oldValue>
+    </key>
+    <key>
+     <name>ModuleHelp.Text</name>
+     <oldValue>&lt;h1&gt;About Time Zone Editor&lt;/h1&gt;&lt;p&gt;The Super User can manage the suported time zones installed on the system.&lt;/p&gt;</oldValue>
+    </key>
+   </deletedEntries>
+  </file>
+ </deletedFiles>
+ <modifiedFiles>
+  <file>
+   <name>AddPage.ascx.resx</name>
+   <path>\admin\ControlPanel\App_LocalResources</path>
+   <newEntries>
+    <key>
+     <name>Err.DuplicateWithAlias</name>
+     <newValue>There has a site domain same with your page path.</newValue>
+    </key>
+   </newEntries>
+  </file>
+  <file>
+   <name>GlobalResources.resx</name>
+   <path>\App_GlobalResources</path>
+   <newEntries>
+    <key>
+     <name>//Admin//Lists.String</name>
+     <newValue>Lists</newValue>
+    </key>
+   </newEntries>
+   <modifiedEntries>
+    <key>
+     <name>License.Text</name>
+     <oldValue>&lt;p&gt;DotNetNuke&amp;reg; - http://www.dotnetnuke.com&lt;br /&gt;
+Copyright (c) 2002-2011&lt;br/&gt;
+    by DotNetNuke Corporation&lt;/p&gt;
+    &lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+    to permit persons to whom the Software is furnished to do so, subject to the following conditions:&lt;/p&gt;
+    &lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions 
+    of the Software.&lt;/p&gt;
+    &lt;p&gt;THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+    DEALINGS IN THE SOFTWARE.&lt;/p&gt;</oldValue>
+     <newValue>&lt;p&gt;DotNetNuke&amp;reg; - http://www.dotnetnuke.com&lt;br /&gt;
+Copyright (c) 2002-2012&lt;br/&gt;
+    by DotNetNuke Corporation&lt;/p&gt;
+    &lt;p&gt;Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and 
+    to permit persons to whom the Software is furnished to do so, subject to the following conditions:&lt;/p&gt;
+    &lt;p&gt;The above copyright notice and this permission notice shall be included in all copies or substantial portions 
+    of the Software.&lt;/p&gt;
+    &lt;p&gt;THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL 
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF 
+CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+    DEALINGS IN THE SOFTWARE.&lt;/p&gt;</newValue>
+    </key>
+    <key>
+     <name>//Admin//Pages.String</name>
+     <oldValue>Pages</oldValue>
+     <newValue>Page Management</newValue>
+    </key>
+   </modifiedEntries>
+  </file>
+  <file>
+   <name>Signup.ascx.resx</name>
+   <path>\DesktopModules\Admin\Portals\App_LocalResources</path>
+   <newEntries>
+    <key>
+     <name>DuplicateWithTab.Text</name>
+     <newValue>There has a page which's name is same with your site alias, please change a site alias.</newValue>
+    </key>
+   </newEntries>
+  </file>
+  <file>
+   <name>ProviderConfig.ascx.resx</name>
+   <path>\DesktopModules\Admin\RadEditorProvider\App_LocalResources</path>
+   <newEntries>
+    <key>
+     <name>NotCurrentProvider.Text</name>
+     <newValue>RadEditorProvider is not default html editor provider now, any changes will not apply to current editor provider. If you want to make configuration take effect please update default provider to 'DotNetNuke.RadEditorProvider' in left drop down list.</newValue>
+    </key>
+   </newEntries>
+  </file>
+  <file>
+   <name>RadEditor.Dialogs.resx</name>
+   <path>\DesktopModules\Admin\RadEditorProvider\App_LocalResources</path>
+   <modifiedEntries>
+    <key>
+     <name>About_Copyright</name>
+     <oldValue>Copyright 2002-2011 ©Telerik  All rights reserved.</oldValue>
+     <newValue>Copyright 2002-2012 ©Telerik  All rights reserved.</newValue>
+    </key>
+   </modifiedEntries>
+  </file>
+  <file>
+   <name>RadEditor.Tools.resx</name>
+   <path>\DesktopModules\Admin\RadEditorProvider\App_LocalResources</path>
+   <newEntries>
+    <key>
+     <name>InsertOptions</name>
+     <newValue>Insert Media</newValue>
+    </key>
+    <key>
+     <name>SaveTemplate</name>
+     <newValue>Save Template</newValue>
+    </key>
+    <key>
+     <name>TemplateOptions</name>
+     <newValue>Save Template</newValue>
+    </key>
+   </newEntries>
+  </file>
+  <file>
+   <name>ManageTabs.ascx.resx</name>
+   <path>\DesktopModules\Admin\Tabs\App_LocalResources</path>
+   <newEntries>
+    <key>
+     <name>PathDuplicateWithAlias.Text</name>
+     <newValue>There has a site domain same with your page path.</newValue>
+    </key>
+   </newEntries>
+  </file>
+  <file>
+   <name>Tabs.ascx.resx</name>
+   <path>\DesktopModules\Admin\Tabs\App_LocalResources</path>
+   <newEntries>
+    <key>
+     <name>PathDuplicateWithAlias.Text</name>
+     <newValue>There has a site domain same with your page path.</newValue>
+    </key>
+   </newEntries>
+  </file>
+  <file>
+   <name>WhatsNew.ascx.resx</name>
+   <path>\DesktopModules\Admin\WhatsNew\App_LocalResources</path>
+   <newEntries>
+    <key>
+     <name>WhatsNew.06.01.03</name>
+     <newValue>
+        &lt;h3 class="SubSubHead"&gt;Major Highlights&lt;/h3&gt;
+        &lt;ul&gt;
+	        &lt;li&gt;Fixed issue during CE to PE upgrade that caused the Google Analytics module 
+	        to not be shown in the control panel or the Admin page&lt;/li&gt;
+	        &lt;li&gt;Fixed issue in the HTML Template Manager&lt;/li&gt;
+	        &lt;li&gt;Fixed unhandled exception when creating new extensions of type Dashboard Control&lt;/li&gt;
+	        &lt;li&gt;Fixed issue where hidden pages were not being shown in Admin &gt; User Accounts 
+	        &gt; User Settings &gt; User Account Settings &gt; Redirect After&lt;/li&gt;
+	        &lt;li&gt;Fixed issue with non-standard folders in the RadEditor&lt;/li&gt;
+	        &lt;li&gt;Fixed issue where Calendar Popups were not rendering in IE9&lt;/li&gt;
+	        &lt;li&gt;Fixed installation flow when the user did not have the right file and folder permissions to finish the installation&lt;/li&gt;
+	        &lt;li&gt;Fixed issue that was stopping users from logging in because of corrupt data in the Profile table&lt;/li&gt;
+	        &lt;li&gt;Fixed issue in the class ContentController when trying to retrieve the metadata of content items&lt;/li&gt;
+	        &lt;li&gt;Removed deprecated file TimeZoneEditor.ascx.resx&lt;/li&gt;
+	        &lt;li&gt;Fixed issue that caused invalid values to be entered in the UserProfile table&lt;/li&gt;
+	        &lt;li&gt;Fixed issue with folders not being shown when they were created from the HTML Module&lt;/li&gt;
+	        &lt;li&gt;Fixed error logged when marking an item as ready for translation&lt;/li&gt;
+	        &lt;li&gt;Fixed upgrade issue in the files table when upgrading from 5.x.x to 6.x.x.&lt;/li&gt;
+	        &lt;li&gt;Fixed issue when creating module from the Newsletter module&lt;/li&gt;
+	        &lt;li&gt;Fixed UI issue in the Tabs Module where the legend didn't wrap&lt;/li&gt;
+	        &lt;li&gt;Updated assemblies to Telerik Q3 2011 Ajax&lt;/li&gt;
+	        &lt;li&gt;Included missing key in the GlobalResources.resx file ("//Admin//Lists.text")&lt;/li&gt;
+	        &lt;li&gt;Fixed issue where language key were missing in the RadEditor&lt;/li&gt;
+	        &lt;li&gt;Implemented work around for a bug in the browser definition files that were causing ASP.NET to not be able to detect certain browsers&lt;/li&gt;
+	        &lt;li&gt;Fixed issue with localization files not being handled correctly by the Telerik DNN Grid&lt;/li&gt;
+	        &lt;li&gt;Fixed issue with large files that were causing a YSOD&lt;/li&gt;
+	        &lt;li&gt;Fixed issue where the modal dialogs were inheriting from the site styles&lt;/li&gt;
+	        &lt;li&gt;Fixed issue in the Cache Provider when using a PE template in a CE site&lt;/li&gt;
+	        &lt;li&gt;Fixed casting issues to support Oracle data provider&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;h3 class="SubSubHead"&gt;Security Fixes&lt;/h3&gt;
+        &lt;ul&gt;
+	        &lt;li&gt;Pending&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;h3 class="SubSubHead"&gt;Updated Modules/Providers&lt;/h3&gt;
+        &lt;h4 class="SubSubHead"&gt;Modules&lt;/h4&gt;
+        &lt;ul&gt;
+	        &lt;li&gt;Pages Module&lt;/li&gt;
+	        &lt;li&gt;Newsletter Module&lt;/li&gt;
+	        &lt;li&gt;File Manager&lt;/li&gt;
+	        &lt;li&gt;HTML Module&lt;/li&gt;
+        &lt;/ul&gt;
+        &lt;h4 class="SubSubHead"&gt;Providers&lt;/h4&gt;
+        &lt;ul&gt;
+	        &lt;li&gt;none&lt;/li&gt;
+        &lt;/ul&gt;
+        </newValue>
+    </key>
+   </newEntries>
+  </file>
+  <file>
+   <name>Installwizard.aspx.resx</name>
+   <path>\Install\App_LocalResources</path>
+   <newEntries>
+    <key>
+     <name>InvalidQualifier.Text</name>
+     <newValue>Object Qualifier must start with a letter and no more than 20 characters.</newValue>
+    </key>
+   </newEntries>
+   <modifiedEntries>
+    <key>
+     <name>PermissionsError.Text</name>
+     <oldValue>&lt;img alt="Image showing the security settings for the root folder of the website must be set to Read, Write and Change Control for the ASPNET or NT AUTHORITY/NETWORK SERVICE accounts." src="..\403-3.gif" align="right" hspace="10"/&gt;
+&lt;p&gt;&lt;b&gt;&lt;font color='red'&gt;Your site failed the permissions check.&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+Using Windows Explorer, browse to the root folder of the website ( {0} ). Right-click the folder and select Sharing and Security from the popup menu. Select the Security tab. Add the appropriate User Account and set the Permissions.
+&lt;br/&gt;&lt;br/&gt;
+&lt;h3&gt;If using Windows 2000 - IIS5&lt;/h3&gt;
+&lt;p&gt;The {Server}\ASPNET User Account must have Read, Write, and Change Control of the virtual root of your website.&lt;/p&gt;
+&lt;h3&gt;If using Windows 2003, Windows Vista or Windows Server 2008 and  IIS6 or IIS7&lt;/h3&gt;
+&lt;p&gt;The NT AUTHORITY\NETWORK SERVICE User Account must have Read, Write, and Change Control of the virtual root of your Website.&lt;/p&gt;
+&lt;h3&gt;If using Windows 7 or Windows Server 2008 R2 and  IIS7.5&lt;/h3&gt;
+&lt;p&gt;The IIS AppPool\DefaultAppPool User Account must have Read, Write, and Change Control of the virtual root of your Website.&lt;/p&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;	</oldValue>
+     <newValue>&lt;img alt="Image showing the security settings for the root folder of the website must be set to Read, Write and Change Control for the ASPNET or NT AUTHORITY/NETWORK SERVICE accounts." src="..\403-3.gif" align="right" hspace="10"/&gt;
+&lt;p&gt;&lt;b&gt;&lt;font color='red'&gt;Your site failed the permissions check.&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;
+Using Windows Explorer, browse to the folders of your website ( {0} ). Right-click the folder and select Sharing and Security from the popup menu. Select the Security tab. Add the appropriate User Account and set the Permissions.
+&lt;br/&gt;&lt;br/&gt;
+&lt;h3&gt;If using Windows 2000 - IIS5&lt;/h3&gt;
+&lt;p&gt;The {Server}\ASPNET User Account must have Read, Write, and Change Control of the virtual root of your website.&lt;/p&gt;
+&lt;h3&gt;If using Windows 2003, Windows Vista or Windows Server 2008 and  IIS6 or IIS7&lt;/h3&gt;
+&lt;p&gt;The NT AUTHORITY\NETWORK SERVICE User Account must have Read, Write, and Change Control of the virtual root of your Website.&lt;/p&gt;
+&lt;h3&gt;If using Windows 7 or Windows Server 2008 R2 and  IIS7.5&lt;/h3&gt;
+&lt;p&gt;The IIS AppPool\DefaultAppPool User Account must have Read, Write, and Change Control of the virtual root of your Website.&lt;/p&gt;
+&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;	</newValue>
+    </key>
+   </modifiedEntries>
+  </file>
+ </modifiedFiles>
+</resourceCompare>
